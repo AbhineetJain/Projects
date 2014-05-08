@@ -1,0 +1,20 @@
+#contactForm {
+    font-size: 1.2em;
+}
+
+#contactForm > input, #contactForm > textarea{
+    border: 1px solid gray;
+    font-size: 1.2em;
+    color: #08088A;
+}
+
+#send {
+    border: 2px solid #08088A;
+    font-size: 1.1em;
+    color: white;
+    background-color: #08088A;
+}
+
+#contactForm>input:focus, #contactForm>textarea:focus {
+    border: 2px solid #08088A;
+}
